@@ -1,0 +1,21 @@
+{
+    "name": "nikitakiselev/faker-yandex-referat-provider",
+    "authors": [
+        {
+            "name": "Nikita Kiselev",
+            "email": "kiselev2008@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "ext-mbstring": "*",
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikitakiselev\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
